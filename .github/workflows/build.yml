@@ -24,8 +24,8 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm install
-          node build-sw
           npm run build
+          node build-sw
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
