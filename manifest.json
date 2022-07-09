@@ -1,0 +1,14 @@
+{
+  "name": "feynman's pr",
+  "short_name": "feynman",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#0476F2",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "img/icons", 
+      "type": "image/png"
+    }
+  ]
+}
