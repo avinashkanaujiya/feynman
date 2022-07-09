@@ -3,11 +3,12 @@
   "short_name": "feynman",
   "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#0476F2",
+  "theme_color": "#39e327",
   "background_color": "#fff",
   "icons": [
     {
-      "src": "img/icons", 
+      "src": "/img/icons", 
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
