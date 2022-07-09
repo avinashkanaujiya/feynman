@@ -2,8 +2,8 @@
   "name": "feynman's pr",
   "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#0476F2",
-  "background_color": "#0476F2",
+  "theme_color": "#08f204",
+  "background_color": "#ffffff",
   "icons": [
     {
       "src": "img/icons/android-chrome-maskable-512x512.png", 
