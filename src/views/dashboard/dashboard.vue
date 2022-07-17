@@ -52,7 +52,10 @@ export default {
     //   console.log("No such document!");
     // }
     window.onpopstate = event => {
-      this.$router.forward(1);
+      console.log('222222', this.$router, window.history);
+      if (window.history.state.current === '/') {
+        this.$router.forward(1);
+      }
     }
     this.routines = this.appUserData.data;
     // console.log('12333', this.routines, this.routines[0], this.routines[0].routineName);
