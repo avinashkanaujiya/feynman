@@ -72,8 +72,8 @@ router.beforeEach((to, from, next) => {
   // if (!currentUser && to.name !== 'Login' && to.name !== 'signup') {
   //   return {name: 'Login'}
   // } else if(!currentUser && to.name === 'signup') {
-  //   return {name: 'signup'}
-  // }
+    // return {name: 'signup'}
+  // } sdsddsds
   if (requiresAuth && !currentUser) 
     {
       console.log('login');
