@@ -39,7 +39,7 @@
     </div>
     <div class="pills-container second-pills-container">
       <div :key="suggestion"
-        v-for="suggestion in suggestions">
+        v-for="(suggestion, index) in suggestions">
         <pill class="pill-container" 
         :text="suggestion" 
         :color="'\#0AC5A8'"

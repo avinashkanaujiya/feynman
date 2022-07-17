@@ -90,19 +90,6 @@ export default {
         console.log('12333', err);
       });
     },
-    delete() {
-      this.appUserDataLocal = this.appUserData;
-      console.log('222222', this.appUserDataLocal);
-      this.appUserDataLocal.data[this.currentRoutineIndex].activities[this.currentActivityIndex].suggestions.splice(index, 1);
-      console.log('1222222222', this.appUserDataLocal);
-      const userUid = getAuth().currentUser.uid;
-      const userEmail = getAuth().currentUser.email;
-      setDoc(doc(db, userUid, userEmail), this.appUserDataLocal).then((res) => {
-        // this.$router.go(-1);
-      }).catch((err) => {
-        console.log('12333', err);
-      });
-    }
   }
 }
 </script>
