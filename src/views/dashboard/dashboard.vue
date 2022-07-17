@@ -54,6 +54,11 @@ export default {
     window.onpopstate = event => {
       this.$router.forward(1);
     }
+    document.addEventListener('backbutton', function (e) {
+        e.preventDefault();
+        console.log('Back button prevented page from going back');
+        // Put axios code here
+    }, false);
     this.routines = this.appUserData.data;
     // console.log('12333', this.routines, this.routines[0], this.routines[0].routineName);
   },
