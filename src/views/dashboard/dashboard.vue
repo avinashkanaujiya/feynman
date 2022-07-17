@@ -51,6 +51,9 @@ export default {
     //   // doc.data() will be undefined in this case
     //   console.log("No such document!");
     // }
+    window.onpopstate = event => {
+      this.$router.forward(1);
+    }
     this.routines = this.appUserData.data;
     // console.log('12333', this.routines, this.routines[0], this.routines[0].routineName);
   },
