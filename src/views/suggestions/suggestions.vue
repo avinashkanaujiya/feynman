@@ -130,7 +130,7 @@ export default {
       const suggestion = this.appUserDataLocal.data[this.currentRoutineIndex].activities[this.currentActivityIndex].suggestions[index];
       let response = confirm(`Are you sure, ${suggestion}?`);
 
-      if (response != null) {
+      if (response) {
         console.log('222222', this.appUserDataLocal);
         this.appUserDataLocal.data[this.currentRoutineIndex].activities[this.currentActivityIndex].suggestions.splice(index, 1);
         console.log('1222222222', this.appUserDataLocal);
