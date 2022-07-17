@@ -30,8 +30,8 @@ self.__precacheManifest = [
     "revision": "9f10692e4047d8550e5d04ab6a0025ab"
   },
   {
-    "url": "assets/index.b8bc5800.js",
-    "revision": "fa0dada44218bf0fbf71b0ebfe0fc57a"
+    "url": "assets/index.8fc6d306.js",
+    "revision": "f1a8ec523bad75c1207c8ac565cf24d9"
   },
   {
     "url": "CNAME",
@@ -99,7 +99,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "ea07d02246655b9350db4088e6edcbd3"
+    "revision": "33120934cb7e3a9b01b4836a8bb6e012"
   },
   {
     "url": "manifest.json",
