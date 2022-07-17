@@ -24,7 +24,7 @@ export default {
         const docSnap = await getDoc(docRef);
 
         if (docSnap.exists()) {
-          this.$router.replace('/dashboard')
+          this.$router.push('/dashboard')
           this.setAppUserData(docSnap.data());
           // console.log("Document data:", this.appUserData);
           // console.log(docSnap.data());

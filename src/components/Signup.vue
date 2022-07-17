@@ -18,7 +18,7 @@ export default {
         // console.log('12072022 self', self);
         this.addData();
 
-        this.$router.push('/login');
+        this.$router.replace('/login');
       }).catch((err) => {
         // console.log('12072022', err);
         this.$router.replace('/login');
