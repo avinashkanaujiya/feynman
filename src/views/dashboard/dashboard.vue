@@ -14,8 +14,8 @@
           </pill>
         </template>
       </div>
-      <button class="button logout" v-on:click="logout">Logout</button>
-      <button class="button logout" v-on:click="addData">Push Data</button>
+      <!-- <button class="button logout" v-on:click="logout">Logout</button> -->
+      <!-- <button class="button logout" v-on:click="addData">Push Data</button> -->
     </div>
   </header>
 
