@@ -103,7 +103,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "549d5610a86f1078b23ebb79686f53b7"
+    "revision": "991bd4d13699655d88fd7b2b801763e4"
   },
   {
     "url": "robots.txt",
