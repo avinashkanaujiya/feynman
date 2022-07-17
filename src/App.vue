@@ -4,7 +4,7 @@ import { db } from './main';
 </script>
 <template>
   <div id="app" class="content">
-    <router-view/>
+    <router-view :key="$route.path"/>
   </div>
 </template>
 <style lang="scss">

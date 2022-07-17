@@ -5,8 +5,8 @@ generateSW({
   swDest: './docs/sw.js',
   globDirectory: './docs',
   globPatterns: [
-    // '**',
-    // '*',
-    // '*'
+    '**',
+    '*',
+    '*'
   ]
 });
