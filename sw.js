@@ -26,12 +26,12 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "assets/index.48714bb2.js",
-    "revision": "ce7192a5b4dd3836abc0bf6c8f0a64d9"
+    "url": "assets/index.0094eeea.css",
+    "revision": "e59ff0c003c839659b6590ee6668bbbe"
   },
   {
-    "url": "assets/index.a96272b6.css",
-    "revision": "8ef8afa1bf0edf1968747fd54af2ec11"
+    "url": "assets/index.3b6ecd9d.js",
+    "revision": "50196a9488e84bf8266a30c6504cfb03"
   },
   {
     "url": "CNAME",
@@ -99,7 +99,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "07120e108858ac93ecb9fb18a752f178"
+    "revision": "c628f308f54cd64ba0722dc0224f200c"
   },
   {
     "url": "manifest.json",
