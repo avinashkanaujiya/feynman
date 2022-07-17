@@ -128,7 +128,7 @@ export default {
     del(index) {
       this.appUserDataLocal = this.appUserData;
       const suggestion = this.appUserDataLocal.data[this.currentRoutineIndex].activities[this.currentActivityIndex].suggestions[index];
-      let response = confirm("Are you sure,?", suggestion);
+      let response = confirm(`Are you sure, ${suggestion}?`);
 
       if (response != null) {
         console.log('222222', this.appUserDataLocal);
