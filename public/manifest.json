@@ -2,8 +2,8 @@
   "name": "feynman's pr",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#00bd7e",
-  "background_color": "#ffffff",
+  "theme_color": "#BD97CB",
+  "background_color": "#BD97CB",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
