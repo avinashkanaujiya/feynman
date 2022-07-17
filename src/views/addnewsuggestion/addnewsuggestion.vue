@@ -52,7 +52,7 @@ export default {
       activities: [
         'one'
       ],
-      newSuggestion: 'Enter',
+      newSuggestion: '',
       appUserDataLocal: {}
     }
   },
