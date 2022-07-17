@@ -74,9 +74,19 @@ router.beforeEach((to, from, next) => {
   // } else if(!currentUser && to.name === 'signup') {
   //   return {name: 'signup'}
   // }
-  if (requiresAuth && !currentUser) next('login')
-  else if (!requiresAuth && currentUser) next('dashboard')
-  else next()
+  if (requiresAuth && !currentUser) 
+    {
+      console.log('login');
+      next('login')
+    }
+  else if (!requiresAuth && currentUser) {
+    console.log('dashboard');
+    next('dashboard')
+  }
+  else {
+    console.log('next');
+    next()
+  }
 })
 
 export default router
