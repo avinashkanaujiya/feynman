@@ -29,7 +29,8 @@ export default {
     // Add a new document in collection "cities"
     // console.log('getAuth().currentUser', getAuth().currentUser);
     const userUid = getAuth().currentUser.uid;
-    setDoc(doc(db, userUid, "routines"), {
+    const userEmail = getAuth().currentUser.email;
+    setDoc(doc(db, userUid, userEmail), {
       data: [
         {
           routineName: 'dawn',
