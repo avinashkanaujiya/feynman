@@ -19,5 +19,6 @@ import { db } from './main';
 body {
   margin: 0;
   box-sizing: border-box;
+  overscroll-behavior: contain;
 }
 </style>

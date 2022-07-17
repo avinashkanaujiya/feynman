@@ -57,6 +57,11 @@ export default {
         this.$router.forward(1);
       }
     }
+    // window.onbeforeunload = event => {
+    //   event.preventDefault()
+    //   // Chrome requires returnValue to be set.
+    //   event.returnValue = "ddd";
+    // }
     this.routines = this.appUserData.data;
     // console.log('12333', this.routines, this.routines[0], this.routines[0].routineName);
   },
