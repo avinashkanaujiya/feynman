@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { getAuth } from 'firebase/auth';
 import dashboard from '../../src/views/dashboard/dashboard.vue';
-import Login from '../../src/components/Login.vue';
+import login from '../../src/components/Login.vue';
 import signup from '../../src/components/Signup.vue';
-import Routine from '../views/routine/routine.vue'
+import routine from '../views/routine/routine.vue'
 import Suggestions from '../views/suggestions/suggestions.vue';
 import AddNewSuggestion from '../views/addnewsuggestion/addnewsuggestion.vue'
 
@@ -16,19 +16,19 @@ const router = createRouter({
     },
     {
       path: '/login',
-      name: 'Login',
+      name: 'login',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: Login
+      component: login
     },
     {
       path: '/routine',
-      name: 'Routine',
+      name: 'routine',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: Routine,
+      component: routine,
       meta: {
         requiresAuth: true
       }
@@ -68,9 +68,9 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   let currentUser = getAuth().currentUser
   let requiresAuth = to.matched.some(record => record.meta.requiresAuth)
-  console.log('22222', requiresAuth, currentUser, );
-  // if (!currentUser && to.name !== 'Login' && to.name !== 'signup') {
-  //   return {name: 'Login'}
+  // console.log('22222', requiresAuth, currentUser, );
+  // if (!currentUser && to.name !== 'login' && to.name !== 'signup') {
+  //   return {name: 'login'}
   // } else if(!currentUser && to.name === 'signup') {
     // return {name: 'signup'}
   // } sdsddsds
