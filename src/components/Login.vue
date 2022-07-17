@@ -7,8 +7,8 @@ import { mapMutations, mapState } from 'vuex';
 export default {
   data() {
     return{
-      email: 'feynman@avinashkanaujiya.me',
-      password: 'adminadmin',
+      email: '',
+      password: '',
     }
   },
   methods: {
