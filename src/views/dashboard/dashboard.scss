@@ -1,0 +1,96 @@
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+  .dashboard {
+    // padding: 1rem;
+    height: 100vh;
+    .pills-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+      align-items: center;
+      margin-top: 30px;
+      .pill-container {
+        margin: 5px;
+      }
+    }
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.tetstst {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+// @media (min-width: 1024px) {
+//   body {
+//     display: flex;
+//     place-items: center;
+//   }
+
+//   #app {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     padding: 0 2rem;
+//   }
+
+//   header {
+//     display: flex;
+//     place-items: center;
+//     padding-right: calc(var(--section-gap) / 2);
+//   }
+
+//   header .wrapper {
+//     display: flex;
+//     place-items: flex-start;
+//     flex-wrap: wrap;
+//   }
+
+//   .logo {
+//     margin: 0 2rem 0 0;
+//   }
+
+//   nav {
+//     text-align: left;
+//     margin-left: -1rem;
+//     font-size: 1rem;
+
+//     padding: 1rem 0;
+//     margin-top: 1rem;
+//   }
+// }
+.collapsible-button-container{
+  padding-bottom: 2vw;
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 9px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:active {
+    background-color: #555;
+  }
+
+  .content {
+    padding: 0px 20px 0px 0px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    color: #000000;
+  }
+}

@@ -1,0 +1,25 @@
+.pill {
+  &.wrapper {
+    position: relative;
+    .container {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+      background: #BD97CB; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .text {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        // line-height: 50px;
+        color: #000000;
+        padding: 3% 5% 3% 5%;
+      }
+    }
+  }
+}

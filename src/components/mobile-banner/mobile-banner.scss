@@ -1,0 +1,25 @@
+.mobile-banner {
+  position: relative;
+  height: 50vw;
+  width: 100vw;
+  background: #BD97CB; 
+  &.wrapper {
+    .container {
+      height: 100%;
+      display: flex;
+      direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      .center-text {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+        
+      }
+    }
+  }
+}

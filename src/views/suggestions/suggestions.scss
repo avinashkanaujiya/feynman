@@ -1,0 +1,101 @@
+.suggestions {
+  max-height: 100vh;
+  &.wrapper {
+    height: 100vh;
+    .suggestions-info-container {
+      width: 100vw;
+      display: flex;
+      padding-top: 15px;
+      justify-content: space-between;
+      .suggestions-info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        .suggestions-name {
+          font-family: 'Merriweather';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 50px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+        }
+        .suggestions-time {
+          font-family: 'Merriweather';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+        }
+      }
+      .current-time {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        padding-right: 10px;
+        margin-top: -20px;
+      }
+    }
+    .pills-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+      align-items: center;
+      margin-top: 30px;
+      .pill-container {
+        margin: .9vw;
+      }
+    }
+    .first-pills-container {
+      margin-top: 2px;
+    }
+    .second-pills-container {
+      margin-top: 2px;
+    }
+    .text-container {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      .first-text {
+        padding-left: 15px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+      }
+      .second-text {
+        padding-right: 10px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+}

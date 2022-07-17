@@ -12,18 +12,22 @@
   },
   "type": "module",
   "dependencies": {
+    "firebase": "^9.9.0",
     "register-service-worker": "^1.7.1",
     "vue": "^3.2.37",
     "vue-router": "^4.0.16",
+    "vuefire": "^2.2.5",
     "vuex": "^4.0.2",
     "workbox-sw": "^6.5.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.6",
     "@rushstack/eslint-patch": "^1.1.0",
     "@vitejs/plugin-vue": "^2.3.3",
     "@vue/cli-plugin-pwa": "~4.5.11",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/test-utils": "^2.0.0",
+    "babel-loader": "^8.2.5",
     "cypress": "^10.1.0",
     "eslint": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
@@ -32,7 +36,8 @@
     "prettier": "^2.5.1",
     "sass": "^1.53.0",
     "start-server-and-test": "^1.14.0",
-    "vite": "^2.9.12",
-    "vitest": "^0.15.1"
+    "vite": "^3.0.0",
+    "vitest": "^0.15.1",
+    "vue-loader": "^16.8.3"
   }
 }
