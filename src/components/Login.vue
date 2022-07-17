@@ -19,8 +19,9 @@ export default {
       const auth = getAuth();
       signInWithEmailAndPassword(auth, this.email, this.password).then(async (user) => {
         const userUid = user.user.uid;
+        const userEmail = user.user.email;
         // console.log(user);
-        const docRef = doc(db, userUid, "routines");
+        const docRef = doc(db, userUid, userEmail);
         const docSnap = await getDoc(docRef);
 
         if (docSnap.exists()) {
