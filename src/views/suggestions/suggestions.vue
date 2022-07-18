@@ -4,10 +4,10 @@
     <div class="suggestions-info-container">
       <div class="suggestions-info">
         <div class="suggestions-name">
-          {{}} dawn
+          {{currentRoutine.routineName}}
         </div>
         <div class="suggestions-time">
-          0500 - 0800
+          {{currentRoutine.routineStartTime}} - {{currentRoutine.routineEndTime}}
         </div>
       </div>
       <div class="current-time">

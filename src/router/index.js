@@ -6,6 +6,7 @@ import signup from '../../src/components/Signup.vue';
 import routine from '../views/routine/routine.vue'
 import Suggestions from '../views/suggestions/suggestions.vue';
 import AddNewSuggestion from '../views/addnewsuggestion/addnewsuggestion.vue'
+import AddNewActivity from '../views/addnewactivity/addnewactivity.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -59,6 +60,14 @@ const router = createRouter({
       }
     },
     {
+      path: '/addnewactivity',
+      name: 'addnewactivity',
+      component: AddNewActivity,
+      meta: {
+        requiresAuth: true
+      }
+    },
+    {
       path: '/',
       // redirect: '/login',
       name: 'login',
@@ -79,7 +88,7 @@ router.beforeEach((to, from, next) => {
   if (requiresAuth && !currentUser) 
     {
       console.log('login');
-      next('login')
+      next('/')
     }
   else if (!requiresAuth && currentUser) {
     console.log('dashboard');
